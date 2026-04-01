@@ -17,4 +17,5 @@ int main()
   printf("Sum of digits: %d\n", sum);
   printf("Reverse of the number: %d\n", r);
   return 0;
+  
 }

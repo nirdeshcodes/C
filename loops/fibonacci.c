@@ -25,7 +25,7 @@ int main()
     a = b;
     b = c;
   }
-
+ 
   printf("\n");
   return 0;
 }

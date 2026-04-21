@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+  int arr[7] = {-11, -22, -3, -14, -25, -46, -17};
+  int max = arr[0];
+  for (int i = 0; i < 7; i++)
+  {
+    if (max < arr[i])
+    {
+      max = arr[i];
+    }
+  }
+  printf("%d", max);
+
+  return 0;
+}
